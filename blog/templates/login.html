@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body style="background-color:#f1f1f1">
+    <h2>Login kiriting: </h2>
+    <form action="" method="post">{% csrf_token %}
+        <b>LoGiN: </b> <input type="text" placeholder="Login kiriting..." name="login" >
+        <br>
+        <br>
+        <b>PaRoL:   </b><input type="password" placeholder="Parol kiriting" name="parol" >
+        <br>
+        <br>
+        <button type="submit">Kirish</button>
+
+    </form>
+    <br>
+    <a href="/royhat/"><button type="submit">Royhatdan o'tish</button></a>
+
+
+</body>
+</html>
